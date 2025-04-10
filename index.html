@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="favicon.jpeg">
+    <script src="https://kit.fontawesome.com/06407564c1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="menu-icon">☰</div>
+
+                <img src="logo.jpeg" class="logo">
+                <ul>
+                    <li><a href = "#header">Home</a></li>
+                    <li><a href = "#about">About</a></li>
+                    <li><a href = "#services">Services</a></li>
+                    <li><a href = "#portfolio">Portfolio</a></li>
+                    <li><a href = "#contact">Contact</a></li>
+                    
+                </ul>
+            </nav>
+            <div class="header-text">
+                <br><br><br>
+                
+                    <p>🚀 Machine Learning, 🐍 Python Explorer</p>
+                    <h1>Hi, I'm <span>Atharva </span> from Pune 👋</h1>
+                
+            </div>
+        </div>
+    </div>
+    <!-- ------------------ABOUT------------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="passportpic2.png" alt="myabout">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>👋 Hi, I'm Atharva Gondhale, a passionate Machine Learning Enthusiast
+                    and Python Explorer from India. I am currently pursuing my B.Tech in Information Technology with
+                    Honours in Data Science at IIIT Pune.I have a strong interest in Artificial Intelligence, 
+                    Data Science, and Software Development, and I love building projects that have a real-world impact. 
+                    Whether it's training deep learning models, developing full-stack applications,
+                    or solving complex algorithmic problems, I enjoy exploring new technologies and continuously
+                    improving my skills.</p>
+                    
+                    <div class="tab-titles">
+                            <div class="tab-links active-link" onclick="opentab('skills')">Skills</div>
+                            <div class="tab-links" onclick="opentab('experience')">Experience</div>
+                            <div class="tab-links" onclick="opentab('education')">Education</div>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Machine Learning</span><br>Machine Learning Projects</li>
+                            <li><span>Python Developer</span><br>Python Application Projects</li>
+                            <li><span>Web Developer</span><br>Design Web App Projects</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Machine Learning</span><br>Real World project</li>
+                            <li><span>Python Developer</span><br>NLP-WEB_APP</li>
+                            <li><span>Web Developer</span><br>code Tech IT Solutions</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-Current</span><br>International institute of information technology pune</li>
+                            <li><span>2019</span><br>Ahmednagar Jilha Maratha Vidya Prasarak Samaj's New Arts,Commerce & Science College, Ahmednagar</li>
+                            <li><span>2010</span><br>Sacred Heart Convent High School Ahmednagar</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--------------__SERVICES-------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-computer"></i>
+                <h2>Machine Learning Solutions</h2>
+                <p>Creating responsive and dynamic websites using React.js, Node.js, and modern web technologies.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Building AI-powered applications and models to solve real-world problems.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Data Science & Analytics</h2>
+                <p>Extracting insights from data using Python, Pandas, and visualization tools.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ---------------PORTFOLIO------------------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png">
+                <div class="layer">
+                    <h3>NLP-WEB_APP</h3>
+                    <p>Our NLP Web App uses AI to analyze, process, and understand human language efficiently.
+                    🚀 It offers features like sentiment analysis, text summarization, and chatbot integration
+                    to enhance user interactions. 💡</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png">
+                <div class="layer">
+                    <h3>Swiggy Analysis</h3>
+                    <p>Our Swiggy Analysis project provides insights into food delivery trends, 
+                        customer preferences, and restaurant performance. 📊🍔 It helps optimize pricing,demand forecasting,
+                        and user experience using data-driven analytics. 🚀</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png">
+                <div class="layer">
+                    <h3>Deep's Art</h3>
+                    <p>Our art-selling website is a platform for artists to showcase and sell their artwork online. 🖼️✨ It offers secure transactions, artist profiles,
+                        and seamless browsing for art lovers worldwide. 🚀</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ------------------CONTACT------------------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>atharvagondhale111@gmail.com</p>
+                <p> <i class="fa-solid fa-address-card"></i>9699962871</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/atharvagondhale/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/__athxrva.g___/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/atharva9699"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="Atharva_Enhanced_Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email"name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit " class="btn btn2 ">submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright@Atharva. <br>------Made with <span class="heart">&hearts;</span> in Pune-------</p>
+    </div>
+</div>
+
+    <script >
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        function toggleMenu() {
+            var menu = document.querySelector("nav ul");
+            
+            // Check if the menu is already open
+            if (menu.classList.contains("show")) {
+                menu.classList.remove("show");
+            } else {
+                menu.classList.add("show");
+            }
+        }
+        
+        
+
+
+    </script>
+</body>
+</html>
